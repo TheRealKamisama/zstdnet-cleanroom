@@ -1,0 +1,19 @@
+ZstdNet includes these libraries without changing their licenses:
+
+zstd-jni 1.5.7-7 (including native binaries)
+https://github.com/luben/zstd-jni/tree/v1.5.7-7
+License: META-INF/licenses/zstd-jni.txt
+
+Zstandard 1.5.7, used by zstd-jni
+https://github.com/facebook/zstd/tree/v1.5.7
+BSD license: META-INF/licenses/zstandard.txt
+
+Gson 2.10.1 (privately relocated)
+https://github.com/google/gson/tree/gson-parent-2.10.1
+Apache 2.0 license: META-INF/licenses/gson.txt
+
+SLF4J API and Simple 2.0.17 (privately relocated)
+https://www.slf4j.org/
+MIT license: META-INF/licenses/slf4j.txt
+
+The ZstdNet project's own MIT license is retained in /LICENSE.

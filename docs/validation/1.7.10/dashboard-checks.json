@@ -1,0 +1,78 @@
+{
+  "filters": [
+    {
+      "id": "range1hButton",
+      "summary": [
+        "+\t\t\t155 text 10/04, 12:51 AM – 10/04, 01:51 AM · 2.3 MiB total",
+        "+\t\t\t174 text For the current query, rate is the server network's average public application bytes per second; each trend point is a 45 minute average. Bandwidth references also include Mbps (1 Mbps = 1,000,000 bit/s).",
+        "+\t\t\t\t177 text 5 B/s · 0 Mbps",
+        "+\t\t\t\t179 text 875 B/s · 0.01 Mbps",
+        "+\t\t\t\t181 text 5 B/s · 0 Mbps"
+      ]
+    },
+    {
+      "id": "range6hButton",
+      "summary": [
+        "~\t\t\t144 text 2.9 KiB/s",
+        "~\t\t\t146 text 5.8 KiB/s",
+        "~\t\t\t155 text 10/03, 07:51 PM – 10/04, 01:51 AM · 175.6 MiB total",
+        "~\t\t\t174 text For the current query, rate is the server network's average public application bytes per second; each trend point is a 1 hour average. Bandwidth references also include Mbps (1 Mbps = 1,000,000 bit/s).",
+        "~\t\t\t\t177 text 3.3 KiB/s · 0.03 Mbps"
+      ]
+    },
+    {
+      "id": "range12hButton",
+      "summary": [
+        "~\t\t\t144 text 3.1 KiB/s",
+        "~\t\t\t146 text 6.2 KiB/s",
+        "~\t\t\t155 text 10/03, 01:51 PM – 10/04, 01:51 AM · 383.7 MiB total"
+      ]
+    },
+    {
+      "id": "range1dButton",
+      "summary": [
+        "~\t\t\t144 text 3.2 KiB/s",
+        "~\t\t\t146 text 6.4 KiB/s",
+        "~\t\t\t155 text 10/03, 01:51 AM – 10/04, 01:51 AM · 799.8 MiB total"
+      ]
+    },
+    {
+      "id": "range7dButton",
+      "summary": [
+        "~\t\t\t144 text 3.3 KiB/s",
+        "~\t\t\t146 text 6.5 KiB/s",
+        "~\t\t\t155 text 09/27, 01:51 AM – 10/04, 01:51 AM · 5.7 GiB total"
+      ]
+    },
+    {
+      "id": "rangeAllButton",
+      "summary": [
+        "~\t\t\t146 text 6.6 KiB/s",
+        "~\t\t\t155 text 09/04, 01:51 AM – 10/04, 01:51 AM · 14.6 GiB total"
+      ]
+    }
+  ],
+  "accents": [
+    "Switch theme colors (current: Warm Sand; next: Minimal Mono)",
+    "Switch theme colors (current: Minimal Mono; next: Midnight)",
+    "Switch theme colors (current: Midnight; next: Rose Garden)",
+    "Switch theme colors (current: Rose Garden; next: Aurora)",
+    "Switch theme colors (current: Aurora; next: Sunset Glow)",
+    "Switch theme colors (current: Sunset Glow; next: Forest Whisper)",
+    "Switch theme colors (current: Forest Whisper; next: Sea Breeze)",
+    "Switch theme colors (current: Sea Breeze; next: Lavender Dream)",
+    "Switch theme colors (current: Lavender Dream; next: Default)",
+    "Switch theme colors (current: Default; next: Warm Sand)"
+  ],
+  "customRange": "2026-10-03T00:00 to 2026-10-04T00:00",
+  "languages": [
+    "English",
+    "Chinese"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "consoleErrors": [],
+  "data": "Synthetic 18-day history fixture plus isolated local test session"
+}

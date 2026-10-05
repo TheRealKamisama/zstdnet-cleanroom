@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "Zstandard TCP relay, UDP passthrough and local traffic dashboards for Forge 1.7.10 on Java 25.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "",
+		"updateUrl": "",
+		"authorList": ["wish", "tohsaka"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}

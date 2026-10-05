@@ -1,0 +1,89 @@
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=7897 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=7897 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as configuration cache cannot be reused because file 'gradle.properties' has changed.
+
+> Configure project :
+You might want to check out './gradlew :faq' if your build fails.
+Build script update from 2.0.33 to 2.0.34 available! Run ./gradlew updateBuildScript
+
+> Task :generateForgeSrgMappings SKIPPED
+> Task :downloadFernflower SKIPPED
+> Task :downloadVanillaJars SKIPPED
+> Task :extractDependencyATs SKIPPED
+> Task :processInjectedInterfacesResources NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :processInjectedTagsResources NO-SOURCE
+> Task :compileInjectedInterfacesJava NO-SOURCE
+> Task :processMcLauncherResources NO-SOURCE
+> Task :processApiResources NO-SOURCE
+> Task :injectedInterfacesClasses UP-TO-DATE
+> Task :checkstyleInjectedInterfaces NO-SOURCE
+> Task :injectTags UP-TO-DATE
+> Task :extractNatives2 UP-TO-DATE
+> Task :createMcLauncherFiles UP-TO-DATE
+> Task :compileInjectedTagsJava UP-TO-DATE
+> Task :injectedTagsClasses UP-TO-DATE
+> Task :checkstyleInjectedTags SKIPPED
+> Task :compileMcLauncherJava UP-TO-DATE
+> Task :mcLauncherClasses UP-TO-DATE
+> Task :checkstyleMcLauncher SKIPPED
+> Task :packageMcLauncher UP-TO-DATE
+> Task :sourcesJar
+> Task :mergeVanillaSidedJars SKIPPED
+> Task :deobfuscateMergedJarToSrg SKIPPED
+> Task :decompileSrgJar SKIPPED
+> Task :processResources
+> Task :cleanupDecompSrgJar SKIPPED
+> Task :patchDecompiledJar SKIPPED
+> Task :applyJST SKIPPED
+> Task :remapDecompiledJar SKIPPED
+> Task :decompressDecompiledSources UP-TO-DATE
+> Task :processPatchedMcResources UP-TO-DATE
+> Task :compilePatchedMcJava UP-TO-DATE
+> Task :patchedMcClasses UP-TO-DATE
+> Task :checkstylePatchedMc SKIPPED
+> Task :compileApiJava NO-SOURCE
+> Task :apiClasses UP-TO-DATE
+> Task :packagePatchedMc UP-TO-DATE
+> Task :processIdeVirtualMainResources SKIPPED
+> Task :checkstyleApi NO-SOURCE
+> Task :compileJava UP-TO-DATE
+> Task :classes
+> Task :compileIdeVirtualMainJava SKIPPED
+> Task :compileTestJava UP-TO-DATE
+> Task :testClasses UP-TO-DATE
+> Task :compileMixinJava UP-TO-DATE
+> Task :processMixinResources UP-TO-DATE
+> Task :mixinClasses UP-TO-DATE
+> Task :jar
+
+> Task :test
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=7897 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=7897 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+
+> Task :shadowJar
+'META-INF/services/org.slf4j.spi.SLF4JServiceProvider' is matched by com.github.jengelman.gradle.plugins.shadow.transformers.ServiceFileTransformer but its DuplicatesStrategy is EXCLUDE — duplicates may be silently dropped before the transformer processes them.
+Set it to INCLUDE or WARN to ensure all duplicates are processed by the transformer.
+See https://gradleup.com/shadow/configuration/merging/#handling-duplicates-strategy for more details.
+
+> Task :checkstyleMixin
+> Task :checkstyleTest
+> Task :checkstyleMain
+> Task :reobfJar
+> Task :ideVirtualMainClasses SKIPPED
+> Task :assemble
+> Task :checkstyleIdeVirtualMain SKIPPED
+> Task :check
+> Task :build
+
+[Incubating] Problems report is available at: file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/mods/1.7.10/zstdnet-forge/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 39s
+23 actionable tasks: 9 executed, 14 up-to-date
+Configuration cache entry stored.

@@ -1,5 +1,7 @@
 # ZstdNet
 
+Forge 1.7.10 / Java 25 移植版请参阅[独立安装与构建说明](mods/1.7.10/zstdnet-forge/README.md)和[功能验证矩阵](docs/1.7.10-parity-matrix.md)。该版本需要单独的运行时组合，配置格式也与下文的现代版本有所区别。
+
 ZstdNet 是一个 Minecraft Java 版模组，用 ZSTD 压缩客户端与服务端之间的转发流量，目标是在高重复数据场景下显著降低公网带宽占用。
 
 它尤其适合：

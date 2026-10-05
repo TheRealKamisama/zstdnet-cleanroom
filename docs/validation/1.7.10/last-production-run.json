@@ -1,0 +1,16 @@
+{
+  "id": "1791057237815-1034a16e",
+  "startedAt": 1791057237815,
+  "endedAt": 1791059188995,
+  "active": false,
+  "interrupted": false,
+  "metrics": {
+    "durationMillis": 1951180,
+    "rawIngress": 2192,
+    "rawEgress": 260276,
+    "tcpIngress": 2015,
+    "tcpEgress": 221047,
+    "udpIngress": 0,
+    "udpEgress": 0
+  }
+}

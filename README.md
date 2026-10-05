@@ -2,6 +2,7 @@
 
 - English: [README.en-US.md](README.en-US.md)
 - 中文: [README.zh-CN.md](README.zh-CN.md)
+- Forge 1.7.10 / Java 25: [独立移植模块与安装说明](mods/1.7.10/zstdnet-forge/README.md) · [功能与验证矩阵](docs/1.7.10-parity-matrix.md)
 - (本项目自V1.3.8版本不在发布新版本jar在github，请前往curseforge下载)
 - (Starting from version V1.3.8, this project will no longer release new version JAR files on GitHub. Please go to CurseForge to download.)
 
@@ -9,11 +10,20 @@
 
 ### 当前支持版本
 
+- Forge 1.7.10（Java 25，需要下方列出的运行时组件）
 - Forge 1.20.1
 - NeoForge 1.20.1
 - NeoForge 1.21.1
 - Fabric 1.20.1
 - Fabric 1.21.1
+
+### Forge 1.7.10 / Java 25 移植版
+
+1.7.10 移植已完成，独立模块位于 `mods/1.7.10/zstdnet-forge`。支持自动客户端连接与 Zstd TCP 压缩、独立服务器端口接管、局域网端口设置与广播、UDP/语音转发、可信 PROXY v2 与真实 IP 转发、HUD、命令和持久化流量统计 HTML 面板。
+
+该版本需要 Minecraft Forge `10.13.4.1614` 和 Java 25，并配套安装 LWJGL3ify `3.0.33`（含对应 forgePatches）、RetroFuturaBootstrap `1.1.1`、UniMixins `0.3.1`、GTNHLib `0.11.48`、GTNHExtLib `1.0.4` 和 Hodgepodge `2.7.206`。客户端与服务器的安装、启动参数、构建命令和配置请参阅[1.7.10 安装与构建说明](mods/1.7.10/zstdnet-forge/README.md)。
+
+已通过 43 项自动化测试，以及 Windows x64 / Java 25 下的生产 JAR 客户端和独立服务器验证，覆盖登录、重连、LAN、端口命令、报告权限和全部报告时间范围。局域网端口点击复制已验证；报告链接在 Edge 中打开由用户确认。其他平台的 JNI 资源已打包，尚未在对应系统上运行验证。详细证据见[功能与验证矩阵](docs/1.7.10-parity-matrix.md)和[完成审计](docs/validation/1.7.10/completion-audit.md)。
 
 ## Velocity版本
 

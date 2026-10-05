@@ -1,5 +1,7 @@
 # ZstdNet
 
+For the Forge 1.7.10 / Java 25 port, use the [version-specific installation and build guide](mods/1.7.10/zstdnet-forge/README.md) and [validation matrix](docs/1.7.10-parity-matrix.md). Its runtime stack and configuration format differ from the modern modules described below.
+
 ZstdNet is a Minecraft Java Edition mod that uses ZSTD to compress relayed traffic between clients and servers, with the goal of significantly reducing public bandwidth usage in high-repetition data scenarios.
 
 It is especially suitable for:

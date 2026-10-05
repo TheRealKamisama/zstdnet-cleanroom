@@ -1,0 +1,778 @@
+[0.051s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "com.gtnewhorizons.retrofuturabootstrap.RfbSystemClassLoader"). To use archived non-system classes, this property must not be set
+WARNING: package sun.lwawt.macosx not in java.desktop
+[23:01:25] [RFB-Main/INFO] [LaunchWrapper]: Successfully scanned 72 paths for RFB plugins.
+10�� 04, 2026 11:01:25 ���� io.netty.util.internal.PlatformDependent <clinit>
+��Ϣ: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[23:01:25] [RFB-Main/INFO] [FalsePatternLib DepLoader]: [LetsEncryptHelper] Starting patcher
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: [LetsEncryptHelper] Added certificates to trust store.
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: it.unimi.dsi:fastutil:8.5.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: org.joml:joml:1.10.8 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: com.mojang:brigadier:1.0.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: it.unimi.dsi:fastutil:8.5.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: org.joml:joml:1.10.8 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: com.mojang:brigadier:1.0.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:2.0.1:downgraded-17 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps17.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:1.3.5:downgraded-17 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps17.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Replacing dependency xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:1.3.5 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps17.json with version 2.0.1 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps17.json
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: -----------------------------------------------------------
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: FalsePatternLib is downloading dependencies. Please wait...
+[23:01:26] [RFB-Main/INFO] [FalsePatternLib DepLoader]: -----------------------------------------------------------
+[23:01:28] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library com.mojang:brigadier:1.0.18, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[23:01:28] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:2.0.1-downgraded-17, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps17.json
+[23:01:28] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library it.unimi.dsi:fastutil:8.5.18, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[23:01:28] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library org.joml:joml:1.10.8, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin gtnhextlib@${version} (GTNHExtLib): com.gtnewhorizons.gtnhextlib.core.rfb.GTNHExtLibRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!META-INF/rfb-plugin/gtnhextlib.properties)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin gtnhlib@0.11.48 (GTNHLib): com.gtnewhorizon.gtnhlib.core.rfb.GTNHLibRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!META-INF/rfb-plugin/gtnhlib.properties)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin hodgepodge@2.7.206 (Hodgepodge): com.mitchej123.hodgepodge.core.rfb.HodgepodgeRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/Hodgepodge-2.7.206.jar!META-INF/rfb-plugin/hodgepodge.properties)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin java@25.0.4.1 (Java): com.gtnewhorizons.rfbplugins.compat.DummyJavaPlugin (jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!/com/gtnewhorizons/retrofuturabootstrap/plugin/PluginLoader.class)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin lwjgl3ify@3.0.33 (LWJGL3ify): me.eigenraven.lwjgl3ify.rfb.Lwjgl3ifyRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/lwjgl3ify-3.0.33.jar!META-INF/rfb-plugin/lwjgl3ify.properties)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin rfb@1.1.1 (RetroFuturaBootstrap): com.gtnewhorizons.rfbplugins.compat.DummyRfbPlugin (jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!/com/gtnewhorizons/retrofuturabootstrap/plugin/PluginLoader.class)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin rfb-asm-safety@1.1.1 (RFB ASM Safety): com.gtnewhorizons.rfbplugins.compat.AsmSafetyPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!META-INF/rfb-plugin/rfb-asm-safety.properties)
+[23:01:28] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin rfb-modern-java@1.1.1 (RFB modern Java compatibility plugin): com.gtnewhorizons.rfbplugins.compat.ModernJavaCompatibilityPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!META-INF/rfb-plugin/rfb-modern-java.properties)
+[23:01:29] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.FMLTweaker
+[23:01:29] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLTweaker
+[23:01:29] [RFB-Main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[23:01:29] [RFB-Main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 25.0.4.1, running on Windows 11:amd64:10.0, installed at C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\jdk25\jdk-25.0.4.1+1
+[23:01:29] [RFB-Main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from GTNHLib-0.11.48.jar
+[23:01:29] [RFB-Main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Hodgepodge-2.7.206.jar
+[23:01:29] [RFB-Main/INFO] [FML]: Loading tweaker me.eigenraven.lwjgl3ify.relauncher.Lwjgl3ifyRelauncherTweaker from lwjgl3ify-3.0.33.jar
+[23:01:29] [RFB-Main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from unimixins-0.3.1.jar
+[23:01:29] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:01:29] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker org.spongepowered.asm.launch.MixinTweaker
+[23:01:29] [RFB-Main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/unimixins-0.3.1.jar Service=LaunchWrapper Env=CLIENT
+[23:01:29] [RFB-Main/INFO] [MixinBooter]: MixinBootstrap Initializing...
+[23:01:29] [RFB-Main/INFO] [mixin]: Compatibility level set to JAVA_8
+[23:01:29] [RFB-Main/INFO] [unimixins]: Instantiating AllCore
+[23:01:29] [RFB-Main/INFO] [unimixins]: Instantiating CompatCore
+[23:01:29] [RFB-Main/INFO] [unimixins-mixinextras]: Instantiating MixinExtrasCore
+[23:01:30] [RFB-Main/INFO] [HodgepodgeStringPooler]: Setting up string pooler:  (Guava strong)
+[23:01:30] [RFB-Main/WARN] [LaunchWrapper]: Duplicate tweaker class org.spongepowered.asm.launch.MixinTweaker
+[23:01:30] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker me.eigenraven.lwjgl3ify.relauncher.Lwjgl3ifyRelauncherTweaker
+[23:01:30] [RFB-Main/INFO] [FML]: Lwjgl3ify reparseable status: true (name: lwjgl3ify-3.0.33.jar)
+[23:01:30] [RFB-Main/INFO] [FML]: Removed lwjgl3ify from the list of non-mod coremods
+[23:01:31] [RFB-Main/WARN] [LaunchWrapper]: Duplicate tweaker class org.spongepowered.asm.launch.MixinTweaker
+[23:01:31] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:01:31] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:01:31] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:01:31] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:01:33] [RFB-Main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[23:01:33] [RFB-Main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[23:01:33] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:01:33] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:01:33] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:01:33] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker org.spongepowered.asm.launch.MixinTweaker
+[23:01:33] [RFB-Main/ERROR] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: MixinBootstrap.doInit() called during a tweak constructor!
+[23:01:33] [RFB-Main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with cpw.mods.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@2bc916c7
+[23:01:33] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker me.eigenraven.lwjgl3ify.relauncher.Lwjgl3ifyRelauncherTweaker
+[23:01:33] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:01:34] [RFB-Main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[23:01:35] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.TerminalTweaker
+[23:01:35] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[23:01:35] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker com.mitchej123.hodgepodge.core.fml.tweakers.HodgepodgeLateTweaker
+[23:01:35] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.TerminalTweaker
+[23:01:35] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[23:01:35] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker com.mitchej123.hodgepodge.core.fml.tweakers.HodgepodgeLateTweaker
+[23:01:37] [RFB-Main/WARN] [mixin]: @Final field field_73038_N:Ljava/util/Set; in mixins.hodgepodge.early.json:minecraft.MixinWorldClient_FixAllocations from mod hodgepodge should be final
+[23:01:38] [RFB-Main/INFO]: Setting user: ProductionProbe
+[23:01:39] [Client thread/INFO]: LWJGL Version: 3.4.2+13
+[23:01:40] [RFB-ActualMain-EventLoop/INFO] [lwjgl3ify]: Updated raw mouse input mode to false
+[23:01:41] [Client thread/INFO] [unimixins]: Transforming FMLCommonHandler to add hook for enhancing crash reports
+[23:01:41] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2026/10/4 23:01
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 25.0.4.1, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 237044720 bytes (226 MB) / 536870912 bytes (512 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 2 total; -Xms512m -Xmx2g
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: IntCache: free (L: 0, S: 0) used (L: 0, S: 0)
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 538.46' Renderer: 'GRID P4-4Q/PCI/SSE2'
+	Mixins in Stacktrace: 
+		net.minecraft.client.Minecraft:
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ResizableFullscreen from mod hodgepodge
+			mixins.hodgepodge.early.json:memory.MixinMinecraft_ShutdownHook from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_FastBlockPlacing from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_FixDuplicateSounds from mod hodgepodge
+			mixins.gtnhlib.early.json:MixinMinecraft_PickBlockTrap from mod gtnhlib
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ToggleDebugMessage from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.profiler.MinecraftMixin from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_UpdateKeys from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ClearStaleLoadingScreenInput from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_FMLQueryFPS from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_UnfocusedFullscreen from mod hodgepodge
+			mixins.lwjgl3ify.early.json:game.MixinMinecraft_Display from mod lwjgl3ify
+		cpw.mods.fml.client.FMLClientHandler:
+			mixins.hodgepodge.early.json:minecraft.shutup.MixinFMLClientHandler from mod hodgepodge
+			mixins.hodgepodge.early.json:memory.MixinFMLClientHandler from mod hodgepodge
+[23:01:41] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[23:01:41] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[23:01:41] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[23:01:41] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[23:01:42] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[23:01:42] [Client thread/INFO] [FML]: Searching C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\production\client\.minecraft\mods for mods
+[23:01:42] [Client thread/INFO] [FML]: Also searching C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\production\client\.minecraft\mods\1.7.10 for mods
+[23:01:53] [Client thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
+[23:01:53] [Client thread/INFO] [MixinBooter]: Instantiating all ILateMixinLoader implemented classes...
+10�� 04, 2026 11:01:53 ���� io.netty.util.internal.PlatformDependent <clinit>
+��Ϣ: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[23:01:53] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, GTNHLib Core, gtnhextlib, gtnhlib, hodgepodge, lwjgl3ify, unimixins, unimixins-mixin, unimixins-compat, mixingasm, spongemixins, mixinbooterlegacy, gtnhmixins, mixinextras, zstdnet] at CLIENT
+[23:01:53] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, GTNHLib Core, gtnhextlib, gtnhlib, hodgepodge, lwjgl3ify, unimixins, unimixins-mixin, unimixins-compat, mixingasm, spongemixins, mixinbooterlegacy, gtnhmixins, mixinextras, zstdnet] at SERVER
+[23:01:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTNHExtLib, FMLFileResourcePack:GTNH Lib, FMLFileResourcePack:Hodgepodge, FMLFileResourcePack:lwjgl3ify, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras, FMLFileResourcePack:ZstdNet
+[23:01:54] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[23:01:54] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[23:01:54] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[23:01:54] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[23:01:54] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[23:01:54] [Client thread/INFO] [gtnhlib]: GTNHLib MUI2 integration enabled (for teams UI): false
+[23:01:54] [Client thread/INFO] [gtnhlib]: GTNHLib version 0.11.48 loaded.
+[23:01:54] [Client thread/INFO] [gtnhlib]: Number formatting: Using System Default (zh_CN)
+[23:01:54] [Client thread/INFO] [lwjgl3ify]: Lwjgl3ify preInit - Java version 25
+[23:01:54] [Client thread/INFO] [FML]: Applying holder lookups
+[23:01:54] [Client thread/INFO] [FML]: Holder lookups applied
+[23:01:54] [Client thread/INFO] [FML]: Injecting itemstacks
+[23:01:54] [Client thread/INFO] [FML]: Itemstack injection complete
+[23:01:54] [Client thread/INFO] [Hodgepodge]: Installed Hodgepodge OpenAL sound library
+[23:01:54] [Client thread/INFO] [Hodgepodge]: Installed stereo->mono downmixing ogg codec
+[23:01:54] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:01:54] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:01:54] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:01:54] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:01:55] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:01:55] [Client thread/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=3 on mixins.gtnhlib.early.json:MixinItemRenderer_Translucency from mod gtnhlib::handler$zca000$gtnhlib$isItemTranslucent2 exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[23:01:55] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:01:55] [Sound Library Loader/INFO]: Sound engine started
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.gtnewhorizon.gtnhlib.bytebuf.MemoryUtilities (jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/com/gtnewhorizon/gtnhlib/bytebuf/MemoryUtilities.class)
+WARNING: Please consider reporting this to the maintainers of class com.gtnewhorizon.gtnhlib.bytebuf.MemoryUtilities
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[23:01:55] [Client thread/INFO]: Created: 32x32 textures/blocks-atlas
+[23:01:55] [Client thread/INFO]: Created: 32x32 textures/items-atlas
+[23:01:55] [Client thread/INFO] [FML]: Injecting itemstacks
+[23:01:55] [Client thread/INFO] [FML]: Itemstack injection complete
+[23:01:56] [Client thread/WARN] [Hodgepodge]: Sound Config Applied
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: LZMA.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.falsepattern.deploader.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.google.common.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.gtnewhorizons.retrofuturabootstrap.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.mitchej123.hodgepodge.core.fml.tweakers
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.sun.istack.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: cpw.mods.fml.common.launcher
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: cpw.mods.fml.relauncher.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: jakarta.xml.bind.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: java.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: javax.imageio.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: javax.sound.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: javax.swing.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: me.eigenraven.lwjgl3ify.pack200.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: me.eigenraven.lwjgl3ify.relauncher
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: me.eigenraven.lwjgl3ify.rfb.EarlyConfig
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: net.minecraft.launchwrapper.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: net.minecraftforge.classloading.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.apache.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.apache.logging.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.glassfish.jaxb.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.hotswap.agent
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.lwjgl.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.lwjglx.debug
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.objectweb.asm.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.openjdk.nashorn
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.slf4j.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.launch
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.launch.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.lib.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.logging.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.mixin
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.mixin.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.service.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.util.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: sun.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: argo.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cn.tohsaka.factory.zstdnet.coremod.ZstdLoadingPlugin
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.falsepattern.deploader.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.google.common.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.asm
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.client.renderer.CapturingTessellator
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.client.renderer.TessellatorManager
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.core
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.core.GTNHLibCore
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.gtnhextlib
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.gtnhextlib.core.GTNHExtLibCore
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.gtnhextlib.shadow.com.falsepattern.deploader
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.retrofuturabootstrap.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.mitchej123.hodgepodge.core
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.mitchej123.hodgepodge.core.HodgepodgeCore
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.mojang.brigadier
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.AccessTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.ItemStackTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.ModAccessTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.PatchingTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.SideTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.TerminalTransformer
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.deobf.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.patcher.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.relauncher.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.relauncher.FMLCorePlugin
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.repackage.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: io.github.legacymoddingmc.unimixins.all.AllCore
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: it.unimi.dsi.fastutil
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: javax.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: me.eigenraven.lwjgl3ify.core.Lwjgl3ifyCoremod
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: net.minecraft.launchwrapper.injector.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: net.minecraftforge.classloading.FMLForgePlugin
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: optifine
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.bouncycastle.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.joml
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.lwjgl.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.lwjglx.
+[23:01:56] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: xyz.wagyourtail.jvmdowngrader
+[23:01:56] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
+[23:01:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTNHExtLib, FMLFileResourcePack:GTNH Lib, FMLFileResourcePack:Hodgepodge, FMLFileResourcePack:lwjgl3ify, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras, FMLFileResourcePack:ZstdNet
+[23:01:56] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[23:01:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:01:56] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:01:56] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[23:01:56] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:01:56] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:01:56] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:01:56] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:01:57] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:01:57] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:01:57] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:01:57] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:01:57] [Sound Library Loader/INFO]: Sound engine started
+[23:02:34] [Thread-13/INFO] [Hodgepodge]: OpenAL source routing: stereo spatialization true, direct UI/music channels true, experimental mono panning true
+[23:03:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:03:18] [Server thread/INFO]: Generating keypair
+[23:03:19] [Server thread/ERROR] [fml.ModTracker]: This world was saved with mod zstdnetacceptance which appears to be missing, things may not work well
+[23:03:19] [Server thread/ERROR] [fml.ModTracker]: This world was saved with mod zstdnetlanacceptance which appears to be missing, things may not work well
+[23:03:19] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[23:03:19] [Server thread/INFO] [FML]: Applying holder lookups
+[23:03:19] [Server thread/INFO] [FML]: Holder lookups applied
+[23:03:19] [Server thread/INFO] [FML]: Loading dimension 0 (ZstdNet LAN acceptance) (net.minecraft.server.integrated.IntegratedServer@d384b55)
+[23:03:19] [Server thread/INFO] [FML]: Loading dimension 1 (ZstdNet LAN acceptance) (net.minecraft.server.integrated.IntegratedServer@d384b55)
+[23:03:19] [Server thread/INFO] [FML]: Loading dimension -1 (ZstdNet LAN acceptance) (net.minecraft.server.integrated.IntegratedServer@d384b55)
+[23:03:19] [Server thread/INFO]: Preparing start region for level 0
+[23:03:20] [Server thread/INFO] [Hodgepodge]: [TG Recovery] No TG-SaveData.dat file found.
+[23:03:20] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:03:20] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
+[23:03:20] [Netty IO #1/INFO] [FML]: Client protocol version 2
+[23:03:20] [Netty IO #1/INFO] [FML]: Client attempting to join with 17 mods : lwjgl3ify@3.0.33,mixingasm@0.3,gtnhmixins@2.2.0,mixinextras@0.3.1,FML@7.10.99.99,spongemixins@2.0.1,unimixins-compat@0.3.1,gtnhextlib@1.0.4,Forge@10.13.4.1614,gtnhlib@0.11.48,zstdnet@c9161fb-codex-1-7-10-java25+c9161fbe7c-dirty,unimixins@0.3.1,GTNHLib Core@0.11.48,hodgepodge@2.7.206,mixinbooterlegacy@1.2.1,mcp@9.05,unimixins-mixin@0.3.1
+[23:03:20] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[23:03:20] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[23:03:20] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:03:20] [Server thread/INFO]: ProductionProbe[local:E:8c1f0cab] logged in with entity id 313 at (430.5, 4.0, -368.5)
+[23:03:20] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[23:03:20] [Server thread/INFO]: ProductionProbe joined the game
+[23:03:20] [Server thread/INFO] [Hodgepodge]: [TG Recovery] No player data loaded.
+[23:04:08] [Server thread/INFO]: Saving and pausing game...
+[23:04:08] [Server thread/INFO]: Saving chunks for level 'ZstdNet LAN acceptance'/Overworld
+[23:04:08] [Server thread/INFO]: Saving chunks for level 'ZstdNet LAN acceptance'/Nether
+[23:04:08] [Server thread/INFO]: Saving chunks for level 'ZstdNet LAN acceptance'/The End
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] periodic stats logging disabled.
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] UDP route armed [game]: 0.0.0.0:62085 -> 127.0.0.1:62084
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] UDP route armed [simple_voice_chat]: 0.0.0.0:62087 -> 127.0.0.1:62086
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] started: mode=lan listen=0.0.0.0:62085 target=127.0.0.1:62084
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] LAN host detected. Point your tunnel to 0.0.0.0:62085 instead of the raw LAN port 62084.
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] guard: max_conn=9999 max_req=50 window=PT10S ban=PT1M
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] tuning: flush=PT0.002S idle_timeout=PT0S rate_per_conn=0B/s rate_global=0B/s burst=262144B
+[23:04:57] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] raw vanilla login passthrough: disabled
+[23:04:57] [Client thread/INFO]: Started on 62084
+[23:04:57] [Client thread/INFO]: [CHAT] Local game hosted on port 62084
+[23:04:57] [Client thread/INFO]: [CHAT] ZstdNet LAN is ready: Zstd port 62085, game port 62084. Point your tunnel or friends to the Zstd port.
+[ALSOFT] (EE) Failed to get padding: 0x88890004
+[23:08:29] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:08:32] [Client thread/WARN] [Hodgepodge]: Could not enumerate OpenAL output devices; leaving output unchanged
+java.lang.IllegalStateException: OpenAL returned no output devices
+	at Launch//com.mitchej123.hodgepodge.client.sound.OutputDeviceSupport.devices(OutputDeviceSupport.java:89) [OutputDeviceSupport.class:?]
+	at Launch//com.mitchej123.hodgepodge.client.sound.OutputDeviceSupport.tick(OutputDeviceSupport.java:125) [OutputDeviceSupport.class:?]
+	at Launch//com.mitchej123.hodgepodge.client.ClientTicker.onClientTick(ClientTicker.java:29) [ClientTicker.class:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_33_ClientTicker_onClientTick_ClientTickEvent.invoke(.dynamic) [?:?]
+	at Launch//cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) [ASMEventHandler.class:?]
+	at Launch//cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:140) [EventBus.class:?]
+	at Launch//cpw.mods.fml.common.FMLCommonHandler.onPreClientTick(FMLCommonHandler.java:325) [FMLCommonHandler.class:?]
+	at Launch//net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1587) [bao.class:?]
+	at Launch//net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:973) [bao.class:?]
+	at Launch//net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:898) [bao.class:?]
+	at Launch//net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at System//net.minecraft.launchwrapper.Launch.rfb$realLaunch(Launch.java:250) [Launch.class:?]
+	at System//net.minecraft.launchwrapper.Launch.launch(Launch.java:35) [Launch.class:?]
+	at System//net.minecraft.launchwrapper.Launch.main(Launch.java:60) [Launch.class:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at com.gtnewhorizons.retrofuturabootstrap.Main.main(Main.java:207) [lwjgl3ify-3.0.33-forgePatches.jar:3.0.33]
+	at com.gtnewhorizons.retrofuturabootstrap.MainStartOnFirstThread.lambda$main$1(MainStartOnFirstThread.java:47) [lwjgl3ify-3.0.33-forgePatches.jar:3.0.33]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[23:08:35] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:08:41] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:08:46] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:08:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:08:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:09:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:39] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:10:56] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:07] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:13] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:24] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:41] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:11:58] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:04] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:09] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:15] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:26] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:43] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:12:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:13:56] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:07] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:13] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:19] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:24] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:35] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:41] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:14:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:15:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:12] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:24] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:29] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:35] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:40] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:46] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:52] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:16:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:43] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:17:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:17] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:18:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:17] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:23] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:29] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:35] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:40] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:46] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:52] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:19:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:09] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:26] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:43] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:20:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:43] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:21:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:22:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:12] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:23] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:29] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:40] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:23:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:24:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:23] [Client thread/INFO]: [CHAT] Requesting session traffic report...
+[23:25:23] [Client thread/INFO]: [CHAT] Open traffic dashboard
+[23:25:23] [Client thread/INFO]: [CHAT] C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\production\client\.minecraft\config\zstdnet\reports\singleplayer-9cc4c929\latest.html
+[23:25:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:39] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:25:56] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:13] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:19] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:24] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:26:58] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:04] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:39] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:27:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:28:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:17] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:29:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:12] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:41] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:30:58] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:04] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:31:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:17] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:40] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:46] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:52] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:32:58] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:09] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:15] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:33:56] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:48] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:34:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:39] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:35:56] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:43] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:36:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:12] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:23] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:40] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:37:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:02] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:19] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:38:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:33] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:39:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:06] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:12] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:23] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:29] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:35] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:41] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:52] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:40:58] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:04] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:15] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:41:55] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:07] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:13] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:18] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:24] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:35] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:41] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:46] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:52] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:42:58] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:09] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:15] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:26] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:37] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:43] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:49] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:43:54] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:00] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:40] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:46] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:52] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:44:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:09] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:15] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:27] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:44] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:50] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:45:56] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:01] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:07] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:13] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:19] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:30] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:46:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:05] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:11] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:16] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:22] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:28] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:34] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:39] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:45] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:51] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:47:57] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:03] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:08] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:14] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:20] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:25] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:31] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:36] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:42] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:47] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:53] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:48:59] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:04] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:10] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:15] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:21] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:26] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:32] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:38] [Client thread/WARN] [Hodgepodge]: OpenAL refused output device System Default
+[23:49:39] [Client thread/INFO]: Stopping!
+[23:49:40] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:49:40] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[23:49:40] [Server thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Server thread] INFO cn.tohsaka.factory.zstdnet.server.ServerProxyRuntime - [zstdnet-server] stopped
+[23:49:40] [Server thread/INFO]: Stopping server
+[23:49:40] [Server thread/INFO]: Saving players
+[23:49:40] [Server thread/INFO]: Saving worlds
+[23:49:40] [Server thread/INFO]: Saving chunks for level 'ZstdNet LAN acceptance'/Overworld
+[23:49:40] [Server thread/INFO]: Saving chunks for level 'ZstdNet LAN acceptance'/Nether
+[23:49:40] [Server thread/INFO]: Saving chunks for level 'ZstdNet LAN acceptance'/The End
+[23:49:40] [Server thread/INFO] [FML]: Unloading dimension 0
+[23:49:40] [Server thread/INFO] [FML]: Unloading dimension -1
+[23:49:40] [Server thread/INFO] [FML]: Unloading dimension 1
+[23:49:40] [Server thread/INFO] [FML]: Applying holder lookups
+[23:49:40] [Server thread/INFO] [FML]: Holder lookups applied
+[23:49:40] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:49:40] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 

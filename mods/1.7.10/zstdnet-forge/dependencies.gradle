@@ -1,0 +1,45 @@
+dependencies {
+    shadowImplementation('com.github.luben:zstd-jni:1.5.7-7')
+    shadowImplementation('com.google.code.gson:gson:2.10.1')
+    shadowImplementation('org.slf4j:slf4j-api:2.0.17')
+    shadowImplementation('org.slf4j:slf4j-simple:2.0.17')
+    testImplementation(platform('org.junit:junit-bom:5.11.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+    testRuntimeOnly('org.junit.platform:junit-platform-launcher')
+}
+
+sourceSets.main.java.srcDir('../../../shared/src/main/java/cn/tohsaka/factory/zstdnet/core/stats')
+sourceSets.main.resources.srcDir('../../../shared/src/main/resources')
+
+tasks.named('test', Test) {
+    useJUnitPlatform()
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(25) }
+    jvmArgs('--enable-native-access=ALL-UNNAMED')
+}
+
+tasks.named('shadowJar') {
+    // Preserve JNI names and every native resource. Gson and SLF4J are private
+    // to this mod so vanilla 1.7.10's old Gson cannot shadow record support.
+    relocate('com.google.gson', 'cn.tohsaka.factory.zstdnet.internal.gson')
+    relocate('org.slf4j', 'cn.tohsaka.factory.zstdnet.internal.slf4j')
+    mergeServiceFiles()
+    exclude('META-INF/versions/**/module-info.class', 'module-info.class')
+}
+// UniMixins 0.3.1 rejects JAVA_25 compatibility metadata even on Java 25.
+// Only the vanilla-facing injection classes use Java 8 classfiles; all mod/core
+// code remains native Java 25. No downgrader or replacement stdlib is used.
+tasks.named('compileMixinJava', JavaCompile) {
+    options.release = 8
+}
+
+// IEarlyMixinLoader supplies the list before vanilla targets are loaded. A
+// manifest MixinConfigs entry would register the empty scaffold too early and
+// prevent GTNHMixins from installing that list.
+tasks.withType(Jar).configureEach {
+    doFirst {
+        manifest.attributes.remove('MixinConfigs')
+        // Forge's production scanner stops at TweakClass and never visits
+        // FMLCorePlugin in the same manifest. UniMixins supplies the tweaker.
+        manifest.attributes.remove('TweakClass')
+    }
+}

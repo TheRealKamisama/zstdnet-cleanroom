@@ -1,0 +1,499 @@
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=7897 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=7897 -Dhttp.nonProxyHosts=localhost|127.*|[::1]
+[0.044s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "com.gtnewhorizons.retrofuturabootstrap.RfbSystemClassLoader"). To use archived non-system classes, this property must not be set
+WARNING: package sun.lwawt.macosx not in java.desktop
+[04:00:44] [RFB-Main/INFO] [LaunchWrapper]: Successfully scanned 73 paths for RFB plugins.
+10�� 04, 2026 4:00:45 ���� io.netty.util.internal.PlatformDependent <clinit>
+��Ϣ: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: [LetsEncryptHelper] Starting patcher
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: [LetsEncryptHelper] Added certificates to trust store.
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: it.unimi.dsi:fastutil:8.5.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: org.joml:joml:1.10.8 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: com.mojang:brigadier:1.0.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: it.unimi.dsi:fastutil:8.5.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: org.joml:joml:1.10.8 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: com.mojang:brigadier:1.0.18 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:2.0.1:downgraded-17 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps17.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Found dependency: xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:1.3.5:downgraded-17 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps17.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: Replacing dependency xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:1.3.5 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps17.json with version 2.0.1 from jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps17.json
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: -----------------------------------------------------------
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: FalsePatternLib is downloading dependencies. Please wait...
+[04:00:45] [RFB-Main/INFO] [FalsePatternLib DepLoader]: -----------------------------------------------------------
+[04:00:47] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library com.mojang:brigadier:1.0.18, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[04:00:47] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library xyz.wagyourtail.jvmdowngrader:jvmdowngrader-java-api:2.0.1-downgraded-17, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!/META-INF/gtnhextlib_deps17.json
+[04:00:47] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library it.unimi.dsi:fastutil:8.5.18, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[04:00:47] [Dependency Download Thread/INFO] [FalsePatternLib DepLoader]: Adding library org.joml:joml:1.10.8, requested by mod jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/META-INF/gtnhlib_deps.json
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin gtnhextlib@${version} (GTNHExtLib): com.gtnewhorizons.gtnhextlib.core.rfb.GTNHExtLibRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHExtLib-1.0.4.jar!META-INF/rfb-plugin/gtnhextlib.properties)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin gtnhlib@0.11.48 (GTNHLib): com.gtnewhorizon.gtnhlib.core.rfb.GTNHLibRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!META-INF/rfb-plugin/gtnhlib.properties)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin hodgepodge@2.7.206 (Hodgepodge): com.mitchej123.hodgepodge.core.rfb.HodgepodgeRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/Hodgepodge-2.7.206.jar!META-INF/rfb-plugin/hodgepodge.properties)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin java@25.0.4.1 (Java): com.gtnewhorizons.rfbplugins.compat.DummyJavaPlugin (jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!/com/gtnewhorizons/retrofuturabootstrap/plugin/PluginLoader.class)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin lwjgl3ify@3.0.33 (LWJGL3ify): me.eigenraven.lwjgl3ify.rfb.Lwjgl3ifyRfbPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/lwjgl3ify-3.0.33.jar!META-INF/rfb-plugin/lwjgl3ify.properties)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin rfb@1.1.1 (RetroFuturaBootstrap): com.gtnewhorizons.rfbplugins.compat.DummyRfbPlugin (jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!/com/gtnewhorizons/retrofuturabootstrap/plugin/PluginLoader.class)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin rfb-asm-safety@1.1.1 (RFB ASM Safety): com.gtnewhorizons.rfbplugins.compat.AsmSafetyPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!META-INF/rfb-plugin/rfb-asm-safety.properties)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructed RFB plugin rfb-modern-java@1.1.1 (RFB modern Java compatibility plugin): com.gtnewhorizons.rfbplugins.compat.ModernJavaCompatibilityPlugin (jar:file:///C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/libraries/lwjgl3ify-3.0.33-forgePatches.jar!META-INF/rfb-plugin/rfb-modern-java.properties)
+[04:00:47] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.FMLTweaker
+[04:00:48] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLTweaker
+[04:00:48] [RFB-Main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[04:00:48] [RFB-Main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 25.0.4.1, running on Windows 11:amd64:10.0, installed at C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\jdk25\jdk-25.0.4.1+1
+[04:00:48] [RFB-Main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from GTNHLib-0.11.48.jar
+[04:00:48] [RFB-Main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Hodgepodge-2.7.206.jar
+[04:00:48] [RFB-Main/INFO] [FML]: Loading tweaker me.eigenraven.lwjgl3ify.relauncher.Lwjgl3ifyRelauncherTweaker from lwjgl3ify-3.0.33.jar
+[04:00:48] [RFB-Main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from unimixins-0.3.1.jar
+[04:00:48] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:48] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker org.spongepowered.asm.launch.MixinTweaker
+[04:00:48] [RFB-Main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/unimixins-0.3.1.jar Service=LaunchWrapper Env=CLIENT
+[04:00:48] [RFB-Main/INFO] [MixinBooter]: MixinBootstrap Initializing...
+[04:00:48] [RFB-Main/INFO] [mixin]: Compatibility level set to JAVA_8
+[04:00:48] [RFB-Main/INFO] [unimixins]: Instantiating AllCore
+[04:00:48] [RFB-Main/INFO] [unimixins]: Instantiating CompatCore
+[04:00:48] [RFB-Main/INFO] [unimixins-mixinextras]: Instantiating MixinExtrasCore
+[04:00:49] [RFB-Main/INFO] [HodgepodgeStringPooler]: Setting up string pooler:  (Guava strong)
+[04:00:49] [RFB-Main/WARN] [LaunchWrapper]: Duplicate tweaker class org.spongepowered.asm.launch.MixinTweaker
+[04:00:49] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker me.eigenraven.lwjgl3ify.relauncher.Lwjgl3ifyRelauncherTweaker
+[04:00:49] [RFB-Main/INFO] [FML]: Lwjgl3ify reparseable status: true (name: lwjgl3ify-3.0.33.jar)
+[04:00:49] [RFB-Main/INFO] [FML]: Removed lwjgl3ify from the list of non-mod coremods
+[04:00:50] [RFB-Main/WARN] [LaunchWrapper]: Duplicate tweaker class org.spongepowered.asm.launch.MixinTweaker
+[04:00:50] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[04:00:50] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:50] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:50] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:52] [RFB-Main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[04:00:52] [RFB-Main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[04:00:52] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:52] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:52] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:52] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker org.spongepowered.asm.launch.MixinTweaker
+[04:00:52] [RFB-Main/ERROR] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: MixinBootstrap.doInit() called during a tweak constructor!
+[04:00:52] [RFB-Main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with cpw.mods.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@76a6462e
+[04:00:52] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker me.eigenraven.lwjgl3ify.relauncher.Lwjgl3ifyRelauncherTweaker
+[04:00:52] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[04:00:53] [RFB-Main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04:00:54] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker cpw.mods.fml.common.launcher.TerminalTweaker
+[04:00:54] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:00:54] [RFB-Main/INFO] [LaunchWrapper]: Constructing tweaker com.mitchej123.hodgepodge.core.fml.tweakers.HodgepodgeLateTweaker
+[04:00:54] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker cpw.mods.fml.common.launcher.TerminalTweaker
+[04:00:54] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:00:54] [RFB-Main/INFO] [LaunchWrapper]: Installing tweaker com.mitchej123.hodgepodge.core.fml.tweakers.HodgepodgeLateTweaker
+[04:00:56] [RFB-Main/WARN] [mixin]: @Final field field_73038_N:Ljava/util/Set; in mixins.hodgepodge.early.json:minecraft.MixinWorldClient_FixAllocations from mod hodgepodge should be final
+[04:00:57] [RFB-Main/INFO]: Setting user: ForwardedProbe
+[04:00:58] [Client thread/INFO]: LWJGL Version: 3.4.2+13
+[04:00:59] [RFB-ActualMain-EventLoop/INFO] [lwjgl3ify]: Updated raw mouse input mode to false
+[04:01:00] [Client thread/INFO] [unimixins]: Transforming FMLCommonHandler to add hook for enhancing crash reports
+[04:01:00] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2026/10/4 04:01
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 25.0.4.1, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 229831632 bytes (219 MB) / 536870912 bytes (512 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 2 total; -Xms512m -Xmx2g
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: IntCache: free (L: 0, S: 0) used (L: 0, S: 0)
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 538.46' Renderer: 'GRID P4-4Q/PCI/SSE2'
+	Mixins in Stacktrace: 
+		net.minecraft.client.Minecraft:
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_FastBlockPlacing from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ClearStaleLoadingScreenInput from mod hodgepodge
+			mixins.hodgepodge.early.json:memory.MixinMinecraft_ShutdownHook from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_FMLQueryFPS from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ResizableFullscreen from mod hodgepodge
+			mixins.gtnhlib.early.json:MixinMinecraft_PickBlockTrap from mod gtnhlib
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_UpdateKeys from mod hodgepodge
+			mixins.lwjgl3ify.early.json:game.MixinMinecraft_Display from mod lwjgl3ify
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_UnfocusedFullscreen from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_ToggleDebugMessage from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.MixinMinecraft_FixDuplicateSounds from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.profiler.MinecraftMixin from mod hodgepodge
+		cpw.mods.fml.client.FMLClientHandler:
+			mixins.hodgepodge.early.json:memory.MixinFMLClientHandler from mod hodgepodge
+			mixins.hodgepodge.early.json:minecraft.shutup.MixinFMLClientHandler from mod hodgepodge
+[04:01:00] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[04:01:00] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[04:01:00] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[04:01:00] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[04:01:00] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[04:01:00] [Client thread/INFO] [FML]: Searching C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\production\client\.minecraft\mods for mods
+[04:01:00] [Client thread/INFO] [FML]: Also searching C:\Users\TheRe\Documents\ChatGPT\zstdnet\.work\1.7.10\production\client\.minecraft\mods\1.7.10 for mods
+[04:01:12] [Client thread/INFO] [FML]: Forge Mod Loader has identified 20 mods to load
+[04:01:12] [Client thread/INFO] [MixinBooter]: Instantiating all ILateMixinLoader implemented classes...
+10�� 04, 2026 4:01:12 ���� io.netty.util.internal.PlatformDependent <clinit>
+��Ϣ: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[04:01:12] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, GTNHLib Core, gtnhextlib, gtnhlib, hodgepodge, lwjgl3ify, unimixins, unimixins-mixin, unimixins-compat, mixingasm, spongemixins, mixinbooterlegacy, gtnhmixins, mixinextras, zstdnet, zstdnetacceptance, zstdnetconnectionacceptance, zstdnetlanacceptance] at CLIENT
+[04:01:12] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, GTNHLib Core, gtnhextlib, gtnhlib, hodgepodge, lwjgl3ify, unimixins, unimixins-mixin, unimixins-compat, mixingasm, spongemixins, mixinbooterlegacy, gtnhmixins, mixinextras, zstdnet, zstdnetacceptance, zstdnetconnectionacceptance, zstdnetlanacceptance] at SERVER
+[04:01:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTNHExtLib, FMLFileResourcePack:GTNH Lib, FMLFileResourcePack:Hodgepodge, FMLFileResourcePack:lwjgl3ify, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras, FMLFileResourcePack:ZstdNet, FMLFileResourcePack:ZstdNet runtime acceptance, FMLFileResourcePack:ZstdNet connection acceptance, FMLFileResourcePack:ZstdNet LAN acceptance
+[04:01:13] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[04:01:13] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[04:01:13] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[04:01:13] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[04:01:13] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[04:01:13] [Client thread/INFO] [gtnhlib]: GTNHLib MUI2 integration enabled (for teams UI): false
+[04:01:13] [Client thread/INFO] [gtnhlib]: GTNHLib version 0.11.48 loaded.
+[04:01:13] [Client thread/INFO] [gtnhlib]: Number formatting: Using System Default (zh_CN)
+[04:01:13] [Client thread/INFO] [lwjgl3ify]: Lwjgl3ify preInit - Java version 25
+[04:01:13] [Client thread/INFO] [FML]: Applying holder lookups
+[04:01:13] [Client thread/INFO] [FML]: Holder lookups applied
+[04:01:13] [Client thread/INFO] [FML]: Injecting itemstacks
+[04:01:13] [Client thread/INFO] [FML]: Itemstack injection complete
+[04:01:14] [Client thread/INFO] [Hodgepodge]: Installed Hodgepodge OpenAL sound library
+[04:01:14] [Client thread/INFO] [Hodgepodge]: Installed stereo->mono downmixing ogg codec
+[04:01:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:131]: Error in class 'LibraryLWJGLOpenAL'
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:132]:     Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not open ALC device: default
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     STACK TRACE:
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//org.lwjglx.openal.AL.create(AL.java:69)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//org.lwjglx.openal.AL.create(AL.java:31)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//org.lwjglx.openal.AL.create(AL.java:26)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[04:01:14] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.CommandThread.run(CommandThread.java:121)
+[04:01:14] [Client thread/WARN] [mixin]: @Inject(@At("INVOKE")) Shift.BY=3 on mixins.gtnhlib.early.json:MixinItemRenderer_Translucency from mod gtnhlib::handler$zca000$gtnhlib$isItemTranslucent2 exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04:01:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[04:01:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not open ALC device: default
+[04:01:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:14] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.gtnewhorizon.gtnhlib.bytebuf.MemoryUtilities (jar:file:/C:/Users/TheRe/Documents/ChatGPT/zstdnet/.work/1.7.10/production/client/.minecraft/mods/GTNHLib-0.11.48.jar!/com/gtnewhorizon/gtnhlib/bytebuf/MemoryUtilities.class)
+WARNING: Please consider reporting this to the maintainers of class com.gtnewhorizon.gtnhlib.bytebuf.MemoryUtilities
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[04:01:14] [Client thread/INFO]: Created: 32x32 textures/blocks-atlas
+[04:01:14] [Client thread/INFO]: Created: 32x32 textures/items-atlas
+[04:01:14] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[04:01:14] [Thread-13/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[04:01:15] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:15] [Sound Library Loader/INFO]: Sound engine started
+[04:01:15] [Client thread/INFO] [FML]: Injecting itemstacks
+[04:01:15] [Client thread/INFO] [FML]: Itemstack injection complete
+[04:01:15] [Client thread/WARN] [Hodgepodge]: Sound Config Applied
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: LZMA.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.falsepattern.deploader.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.google.common.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.gtnewhorizons.retrofuturabootstrap.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.mitchej123.hodgepodge.core.fml.tweakers
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: com.sun.istack.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: cpw.mods.fml.common.launcher
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: cpw.mods.fml.relauncher.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: jakarta.xml.bind.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: java.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: javax.imageio.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: javax.sound.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: javax.swing.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: me.eigenraven.lwjgl3ify.pack200.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: me.eigenraven.lwjgl3ify.relauncher
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: me.eigenraven.lwjgl3ify.rfb.EarlyConfig
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: net.minecraft.launchwrapper.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: net.minecraftforge.classloading.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.apache.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.apache.logging.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.glassfish.jaxb.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.hotswap.agent
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.lwjgl.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.lwjglx.debug
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.objectweb.asm.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.openjdk.nashorn
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.slf4j.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.launch
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.launch.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.lib.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.logging.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.mixin
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.mixin.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.service.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: org.spongepowered.asm.util.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader loader exclusion: sun.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: argo.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cn.tohsaka.factory.zstdnet.coremod.ZstdLoadingPlugin
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.falsepattern.deploader.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.google.common.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.asm
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.client.renderer.CapturingTessellator
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.client.renderer.TessellatorManager
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.core
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizon.gtnhlib.core.GTNHLibCore
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.gtnhextlib
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.gtnhextlib.core.GTNHExtLibCore
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.gtnhextlib.shadow.com.falsepattern.deploader
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.gtnewhorizons.retrofuturabootstrap.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.mitchej123.hodgepodge.core
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.mitchej123.hodgepodge.core.HodgepodgeCore
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: com.mojang.brigadier
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.AccessTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.DeobfuscationTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.ItemStackTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.ModAccessTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.PatchingTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.SideTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.TerminalTransformer
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.asm.transformers.deobf.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.common.patcher.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.relauncher.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.relauncher.FMLCorePlugin
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: cpw.mods.fml.repackage.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: io.github.legacymoddingmc.unimixins.all.AllCore
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: it.unimi.dsi.fastutil
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: javax.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: me.eigenraven.lwjgl3ify.core.Lwjgl3ifyCoremod
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: net.minecraft.launchwrapper.injector.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: net.minecraftforge.classloading.FMLForgePlugin
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: optifine
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.bouncycastle.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.joml
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.lwjgl.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: org.lwjglx.
+[04:01:15] [Client thread/INFO] [lwjgl3ify]: LaunchClassLoader transformer exclusion: xyz.wagyourtail.jvmdowngrader
+[04:01:15] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 20 mods
+[04:01:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GTNHExtLib, FMLFileResourcePack:GTNH Lib, FMLFileResourcePack:Hodgepodge, FMLFileResourcePack:lwjgl3ify, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras, FMLFileResourcePack:ZstdNet, FMLFileResourcePack:ZstdNet runtime acceptance, FMLFileResourcePack:ZstdNet connection acceptance, FMLFileResourcePack:ZstdNet LAN acceptance
+[04:01:15] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[04:01:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[04:01:15] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:15] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[04:01:16] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[04:01:16] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:16] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:16] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:131]: Error in class 'LibraryLWJGLOpenAL'
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:132]:     Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not open ALC device: default
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     STACK TRACE:
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//org.lwjglx.openal.AL.create(AL.java:69)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//org.lwjglx.openal.AL.create(AL.java:31)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//org.lwjglx.openal.AL.create(AL.java:26)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[04:01:16] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Launch//paulscode.sound.CommandThread.run(CommandThread.java:121)
+[04:01:16] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[04:01:16] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not open ALC device: default
+[04:01:16] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:16] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[04:01:17] [Thread-17/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[04:01:17] [Thread-17/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[04:01:17] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:01:17] [Sound Library Loader/INFO]: Sound engine started
+[04:01:18] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [zstdnetacceptance, zstdnetconnectionacceptance, zstdnetlanacceptance] at SERVER
+[04:01:18] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: auto mode 127.0.0.1:65396 -> ZSTD
+[04:01:18] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP local proxy armed /127.0.0.1:56418 -> 127.0.0.1:65396 (status 127.0.0.1:65396, presented 127.0.0.1:65396, mode ZSTD)
+[04:01:18] [zstdnet-accept-1-127.0.0.1:65396/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-accept-1-127.0.0.1:65396] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP accept loop waiting on /127.0.0.1:56418 for 127.0.0.1:65396 (mode ZSTD)
+[04:01:18] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: UDP passthrough armed 127.0.0.1:56418 -> 127.0.0.1:65396
+[04:01:18] [Client thread/INFO]: Connecting to 127.0.0.1, 56418
+[04:01:18] [zstdnet-accept-1-127.0.0.1:65396/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-accept-1-127.0.0.1:65396] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP accepted local client /127.0.0.1:56421 -> /127.0.0.1:56418 for 127.0.0.1:65396
+[04:01:18] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: waiting for Minecraft handshake from /127.0.0.1:56421 for 127.0.0.1:65396
+[04:01:18] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: Minecraft handshake received from /127.0.0.1:56421 for 127.0.0.1:65396 nextState=2 mode=ZSTD status=false firstPacketBytes=15
+[04:01:18] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: opening ZSTD upstream /127.0.0.1:56421 -> 127.0.0.1:65396 level 3
+[04:01:18] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: ZSTD upstream connected local /127.0.0.1:56422 -> remote /127.0.0.1:65396
+[04:01:19] [Netty Client IO #1/INFO] [FML]: Server protocol version 2
+[04:01:19] [Netty Client IO #1/INFO] [FML]: Attempting connection with missing mods [zstdnetacceptance, zstdnetconnectionacceptance, zstdnetlanacceptance] at SERVER
+[04:01:19] [Netty Client IO #1/INFO] [FML]: Injecting existing block and item data into this client instance
+[04:01:19] [Netty Client IO #1/INFO] [FML]: Applying holder lookups
+[04:01:19] [Netty Client IO #1/INFO] [FML]: Holder lookups applied
+[04:01:19] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[04:01:19] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: closing TCP listener 127.0.0.1:56418 -> 127.0.0.1:65396 (wasRunning=true)
+[04:01:19] [Client thread/INFO] [STDOUT]: [cn.tohsaka.factory.zstdnet.acceptance.ConnectionAcceptance:record:102]: ZSTDNET_ACCEPTANCE config-reload: Live client compression level reloaded to 7; reconnect must use the new level
+[04:01:19] [Netty Client IO #1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Netty Client IO #1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: closing TCP listener 127.0.0.1:56418 -> 127.0.0.1:65396 (wasRunning=false)
+[04:01:19] [Client thread/INFO] [FML]: Applying holder lookups
+[04:01:19] [Client thread/INFO] [FML]: Holder lookups applied
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: auto mode 127.0.0.1:65396 -> ZSTD
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP local proxy armed /127.0.0.1:56426 -> 127.0.0.1:65396 (status 127.0.0.1:65396, presented 127.0.0.1:65396, mode ZSTD)
+[04:01:20] [zstdnet-accept-2-127.0.0.1:65396/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-accept-2-127.0.0.1:65396] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP accept loop waiting on /127.0.0.1:56426 for 127.0.0.1:65396 (mode ZSTD)
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: UDP passthrough armed 127.0.0.1:56426 -> 127.0.0.1:65396
+[04:01:20] [Client thread/INFO]: Connecting to 127.0.0.1, 56426
+[04:01:20] [zstdnet-accept-2-127.0.0.1:65396/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-accept-2-127.0.0.1:65396] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP accepted local client /127.0.0.1:56430 -> /127.0.0.1:56426 for 127.0.0.1:65396
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: waiting for Minecraft handshake from /127.0.0.1:56430 for 127.0.0.1:65396
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: Minecraft handshake received from /127.0.0.1:56430 for 127.0.0.1:65396 nextState=2 mode=ZSTD status=false firstPacketBytes=15
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: opening ZSTD upstream /127.0.0.1:56430 -> 127.0.0.1:65396 level 7
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: ZSTD upstream connected local /127.0.0.1:56431 -> remote /127.0.0.1:65396
+[04:01:20] [Netty Client IO #2/ERROR] [FML]: ChannelRegistrationHandler exception
+java.lang.ClassCastException: Cannot cast net.minecraft.client.network.NetHandlerLoginClient to net.minecraft.client.network.NetHandlerPlayClient
+	at java.base/java.lang.Class.cast(Class.java:3492) ~[?:?]
+	at Launch//cpw.mods.fml.common.network.FMLNetworkEvent$CustomPacketRegistrationEvent.<init>(FMLNetworkEvent.java:93) ~[FMLNetworkEvent$CustomPacketRegistrationEvent.class:?]
+	at Launch//cpw.mods.fml.client.FMLClientHandler.fireNetRegistrationEvent(FMLClientHandler.java:887) ~[FMLClientHandler.class:?]
+	at Launch//cpw.mods.fml.common.FMLCommonHandler.fireNetRegistrationEvent(FMLCommonHandler.java:590) ~[FMLCommonHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:28) ~[ChannelRegistrationHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:15) ~[ChannelRegistrationHandler.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) ~[SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169) [EmbeddedChannel.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.handleClientSideCustomPacket(NetworkDispatcher.java:274) [NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:202) [NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:47) [NetworkDispatcher.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) [SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:149) [ReadTimeoutHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:100) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at Launch//io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:01:20] [Netty Client IO #2/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+java.lang.ClassCastException: Cannot cast net.minecraft.client.network.NetHandlerLoginClient to net.minecraft.client.network.NetHandlerPlayClient
+	at java.base/java.lang.Class.cast(Class.java:3492) ~[?:?]
+	at Launch//cpw.mods.fml.common.network.FMLNetworkEvent$CustomPacketRegistrationEvent.<init>(FMLNetworkEvent.java:93) ~[FMLNetworkEvent$CustomPacketRegistrationEvent.class:?]
+	at Launch//cpw.mods.fml.client.FMLClientHandler.fireNetRegistrationEvent(FMLClientHandler.java:887) ~[FMLClientHandler.class:?]
+	at Launch//cpw.mods.fml.common.FMLCommonHandler.fireNetRegistrationEvent(FMLCommonHandler.java:590) ~[FMLCommonHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:28) ~[ChannelRegistrationHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:15) ~[ChannelRegistrationHandler.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) ~[SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169) [EmbeddedChannel.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.handleClientSideCustomPacket(NetworkDispatcher.java:274) [NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:202) [NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:47) [NetworkDispatcher.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) [SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:149) [ReadTimeoutHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:100) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at Launch//io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:01:20] [Netty Client IO #2/ERROR] [FML]: HandshakeMessageHandler exception
+java.lang.ClassCastException: Cannot cast net.minecraft.client.network.NetHandlerLoginClient to net.minecraft.client.network.NetHandlerPlayClient
+	at java.base/java.lang.Class.cast(Class.java:3492) ~[?:?]
+	at Launch//cpw.mods.fml.common.network.FMLNetworkEvent$CustomPacketRegistrationEvent.<init>(FMLNetworkEvent.java:93) ~[FMLNetworkEvent$CustomPacketRegistrationEvent.class:?]
+	at Launch//cpw.mods.fml.client.FMLClientHandler.fireNetRegistrationEvent(FMLClientHandler.java:887) ~[FMLClientHandler.class:?]
+	at Launch//cpw.mods.fml.common.FMLCommonHandler.fireNetRegistrationEvent(FMLCommonHandler.java:590) ~[FMLCommonHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:28) ~[ChannelRegistrationHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:15) ~[ChannelRegistrationHandler.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) ~[SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169) [EmbeddedChannel.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.handleClientSideCustomPacket(NetworkDispatcher.java:274) [NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:202) [NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:47) [NetworkDispatcher.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) [SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:149) [ReadTimeoutHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:100) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at Launch//io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:01:20] [Netty Client IO #2/ERROR] [FML]: NetworkDispatcher exception
+java.lang.ClassCastException: Cannot cast net.minecraft.client.network.NetHandlerLoginClient to net.minecraft.client.network.NetHandlerPlayClient
+	at java.base/java.lang.Class.cast(Class.java:3492) ~[?:?]
+	at Launch//cpw.mods.fml.common.network.FMLNetworkEvent$CustomPacketRegistrationEvent.<init>(FMLNetworkEvent.java:93) ~[FMLNetworkEvent$CustomPacketRegistrationEvent.class:?]
+	at Launch//cpw.mods.fml.client.FMLClientHandler.fireNetRegistrationEvent(FMLClientHandler.java:887) ~[FMLClientHandler.class:?]
+	at Launch//cpw.mods.fml.common.FMLCommonHandler.fireNetRegistrationEvent(FMLCommonHandler.java:590) ~[FMLCommonHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:28) ~[ChannelRegistrationHandler.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.ChannelRegistrationHandler.channelRead0(ChannelRegistrationHandler.java:15) ~[ChannelRegistrationHandler.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) ~[SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) ~[DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169) ~[EmbeddedChannel.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.handleClientSideCustomPacket(NetworkDispatcher.java:274) ~[NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:202) ~[NetworkDispatcher.class:?]
+	at Launch//cpw.mods.fml.common.network.handshake.NetworkDispatcher.channelRead0(NetworkDispatcher.java:47) ~[NetworkDispatcher.class:?]
+	at Launch//io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98) ~[SimpleChannelInboundHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:173) [ByteToMessageDecoder.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:149) [ReadTimeoutHandler.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323) [DefaultChannelHandlerContext.class:?]
+	at Launch//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785) [DefaultChannelPipeline.class:?]
+	at Launch//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:100) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at Launch//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at Launch//io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[04:01:20] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
+[04:01:20] [Netty Client IO #2/INFO] [FML]: Attempting connection with missing mods [zstdnetacceptance, zstdnetconnectionacceptance, zstdnetlanacceptance] at SERVER
+[04:01:20] [Netty Client IO #2/INFO] [FML]: Injecting existing block and item data into this client instance
+[04:01:20] [Netty Client IO #2/INFO] [FML]: Applying holder lookups
+[04:01:20] [Netty Client IO #2/INFO] [FML]: Holder lookups applied
+[04:01:20] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: closing TCP listener 127.0.0.1:56426 -> 127.0.0.1:65396 (wasRunning=true)
+[04:01:20] [Client thread/INFO] [STDOUT]: [cn.tohsaka.factory.zstdnet.acceptance.ConnectionAcceptance:record:102]: ZSTDNET_ACCEPTANCE reconnect-1: Real Forge reconnect completed through the saved-server constructor; original address persisted: 127.0.0.1:65396
+[04:01:20] [Netty Client IO #2/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Netty Client IO #2] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: closing TCP listener 127.0.0.1:56426 -> 127.0.0.1:65396 (wasRunning=false)
+[04:01:20] [Client thread/INFO] [FML]: Applying holder lookups
+[04:01:20] [Client thread/INFO] [FML]: Holder lookups applied
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: auto mode 127.0.0.1:65396 -> ZSTD
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP local proxy armed /127.0.0.1:56434 -> 127.0.0.1:65396 (status 127.0.0.1:65396, presented 127.0.0.1:65396, mode ZSTD)
+[04:01:20] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: UDP passthrough armed 127.0.0.1:56434 -> 127.0.0.1:65396
+[04:01:20] [Client thread/INFO]: Connecting to 127.0.0.1, 56434
+[04:01:20] [zstdnet-accept-3-127.0.0.1:65396/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-accept-3-127.0.0.1:65396] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP accept loop waiting on /127.0.0.1:56434 for 127.0.0.1:65396 (mode ZSTD)
+[04:01:20] [zstdnet-accept-3-127.0.0.1:65396/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-accept-3-127.0.0.1:65396] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: TCP accepted local client /127.0.0.1:56437 -> /127.0.0.1:56434 for 127.0.0.1:65396
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: waiting for Minecraft handshake from /127.0.0.1:56437 for 127.0.0.1:65396
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: Minecraft handshake received from /127.0.0.1:56437 for 127.0.0.1:65396 nextState=2 mode=ZSTD status=false firstPacketBytes=15
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: opening ZSTD upstream /127.0.0.1:56437 -> 127.0.0.1:65396 level 7
+[04:01:20] [zstdnet-worker-1/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [zstdnet-worker-1] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: ZSTD upstream connected local /127.0.0.1:56438 -> remote /127.0.0.1:65396
+[04:01:20] [Netty Client IO #3/INFO] [FML]: Server protocol version 2
+[04:01:20] [Netty Client IO #3/INFO] [FML]: Attempting connection with missing mods [zstdnetacceptance, zstdnetconnectionacceptance, zstdnetlanacceptance] at SERVER
+[04:01:20] [Netty Client IO #3/INFO] [FML]: Injecting existing block and item data into this client instance
+[04:01:20] [Netty Client IO #3/INFO] [FML]: Applying holder lookups
+[04:01:20] [Netty Client IO #3/INFO] [FML]: Holder lookups applied
+[04:01:20] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[04:01:21] [Client thread/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Client thread] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: closing TCP listener 127.0.0.1:56434 -> 127.0.0.1:65396 (wasRunning=true)
+[04:01:21] [Client thread/INFO] [STDOUT]: [cn.tohsaka.factory.zstdnet.acceptance.ConnectionAcceptance:record:102]: ZSTDNET_ACCEPTANCE reconnect-2: Real Forge reconnect completed through the saved-server constructor; original address persisted: 127.0.0.1:65396
+[04:01:21] [Netty Client IO #3/INFO] [STDERR]: [cn.tohsaka.factory.zstdnet.internal.slf4j.simple.SimpleLogger:write:261]: [Netty Client IO #3] INFO cn.tohsaka.factory.zstdnet.proxy.LocalZstdNet - zstdnet: closing TCP listener 127.0.0.1:56434 -> 127.0.0.1:65396 (wasRunning=false)
+[04:01:21] [Client thread/INFO] [FML]: Applying holder lookups
+[04:01:21] [Client thread/INFO] [FML]: Holder lookups applied
+[04:01:21] [Client thread/INFO] [STDOUT]: [cn.tohsaka.factory.zstdnet.acceptance.ConnectionAcceptance:record:102]: ZSTDNET_ACCEPTANCE connection-passed: Two same-process production reconnects, persisted saved address, live level reload and final session cleanup passed

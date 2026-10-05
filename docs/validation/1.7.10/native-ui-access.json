@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-04",
+  "closedAtDate": "2026-10-05",
+  "status": "passed",
+  "checks": [
+    "Click LAN port link and verify copied port",
+    "Click Open traffic dashboard and verify OS browser"
+  ],
+  "nativeWindow": "Minecraft 1.7.10",
+  "capture": "Native clipboard port paste observed; dashboard OS dispatch observed and successful Edge loading confirmed by the user",
+  "activationError": null,
+  "recovery": "Fresh window selection and native input succeeded on the next user-authorized retry",
+  "requiredExternalAction": null,
+  "clientStoppedAfterAttempt": true,
+  "currentAttempt": {
+    "desktopInput": "passed",
+    "clipboardSentinelVerifiedByPaste": true,
+    "portLinkClick": "passed",
+    "clipboardPortVerification": "passed",
+    "copiedPort": 62085,
+    "reportCommand": "/zstdreport session",
+    "reportOpenClick": "passed",
+    "osOpenDispatch": "Windows HTML app chooser observed",
+    "browserLoadVerification": "passed, user-verified",
+    "browser": "Microsoft Edge",
+    "userSelectedAlways": true,
+    "browserConfirmation": "It worked, I checked, and I closed the edge",
+    "browserScreenshotCapturedByAgent": false,
+    "verificationBoundary": "The agent observed the native chat click and Windows HTML chooser. The user selected Edge and verified the loaded report before closing Edge.",
+    "runtimeJarSha256": "d56dc39f9c971beee783793f71b68096636339c91ba8376e05e5bf331dc29aad",
+    "shutdown": "Normal window close; relay stopped, players and all world dimensions saved",
+    "reportFile": ".work/1.7.10/production/client/.minecraft/config/zstdnet/reports/singleplayer-9cc4c929/latest.html",
+    "screenshots": [
+      "native-ui-sentinel-verified.png",
+      "native-ui-port-copied.png",
+      "native-ui-report-link.png",
+      "native-ui-html-app-chooser.png"
+    ],
+    "log": "native-ui-resumed.txt"
+  },
+  "resumedDesktopAttempt": {
+    "productionClientRelaunched": true,
+    "fixtureInstalled": false,
+    "world": "zstdnet-acceptance-lan",
+    "nativeStartLanButton": "passed",
+    "actualGamePort": 62084,
+    "actualZstdPort": 62085,
+    "clipboardSentinel": "ZSTDNET_CLIPBOARD_SENTINEL_20261004",
+    "sentinelEnteredSelectedAndCopyKeyPressed": true,
+    "portLinkClick": "not reached",
+    "clipboardPortVerification": "not reached",
+    "reportOpenClick": "not reached",
+    "accessLostAt": "Clearing selected chat input after sentinel copy",
+    "screenshot": "native-ui-sentinel.png",
+    "log": "native-ui-resumed.txt"
+  },
+  "priorAttempt": {
+    "capture": "Black window image",
+    "activationError": "GetCursorPos failed: access denied (0x80070005)",
+    "clientStoppedAfterAttempt": true,
+    "approvalReview": "Rejected activation/reinspection: unlocked interactive session was not established after prior access denial; no workaround attempted",
+    "blockedAudit": "Same native desktop prerequisite persisted across three consecutive goal turns before the user resumed"
+  }
+}

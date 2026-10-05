@@ -1,0 +1,13 @@
+{
+  "runtimeValidatedSha256": "60f3e0627d2ccc63ec86b02967054e48bb1302bf02d5e188d22d98b2ca0ae762",
+  "deliverySha256": "d56dc39f9c971beee783793f71b68096636339c91ba8376e05e5bf331dc29aad",
+  "changedExistingEntries": [],
+  "addedEntries": [
+    "META-INF/THIRD-PARTY-NOTICES.txt",
+    "META-INF/licenses/gson.txt",
+    "META-INF/licenses/slf4j.txt",
+    "META-INF/licenses/zstandard.txt",
+    "META-INF/licenses/zstd-jni.txt"
+  ],
+  "allRuntimeContentByteIdentical": true
+}

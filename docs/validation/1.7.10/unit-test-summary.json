@@ -1,0 +1,68 @@
+[
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.client.TrafficReportGeneratorTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.ClientConfigTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.core.limit.TokenBucketLimiterTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.core.protocol.PacketLimitsTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.core.stats.TrafficStatisticsServiceTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.coremod.ServerRealIpHooksTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.network.ReportTransferTest",
+    "tests": 5,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.proxy.LocalZstdNetUdpPassthroughTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.server.RelayIntegrationTest",
+    "tests": 13,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.server.ServerConfigTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "cn.tohsaka.factory.zstdnet.server.ServerProxyRuntimeVoiceChatTest",
+    "tests": 10,
+    "failures": 0,
+    "errors": 0
+  }
+]

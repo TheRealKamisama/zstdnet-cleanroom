@@ -1,6 +1,7 @@
 # common
 *.log
 *.tmp
+.work/
 
 # gradle
 .gradle/

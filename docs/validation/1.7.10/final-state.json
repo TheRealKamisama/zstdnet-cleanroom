@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-05",
+  "branch": "codex/1.7.10-java25",
+  "head": "c9161fbe7c90cd33f50b73fb4e73d4e9b179dd47",
+  "jar": "C:\\Users\\TheRe\\Documents\\ChatGPT\\zstdnet\\mods\\1.7.10\\zstdnet-forge\\build\\libs\\zstdnet-1.7.10-forge-c9161fb-codex-1-7-10-java25+c9161fbe7c-dirty.jar",
+  "sha256": "d56dc39f9c971beee783793f71b68096636339c91ba8376e05e5bf331dc29aad",
+  "finalNativeRuntimeSameArtifact": true,
+  "nativeClipboard": "agent-observed",
+  "nativeBrowserOpen": "user-verified in Microsoft Edge",
+  "isolatedClientExitCode": 0,
+  "assessmentSha256": "24b408d67758db1be2696a3cf350fe61900ef0a008f3024c1143c6026cec53af",
+  "remainingRequiredChecks": []
+}
