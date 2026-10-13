@@ -11,6 +11,12 @@ a distributable release.
 
 ## Build
 
+The maintained branch is `1.7.10-java25`. `portVersion` in `gradle.properties`
+tracks the checked-in upstream version with a `-forge-1.7.10` suffix.
+GitHub Actions builds and tests branch pushes and pull requests. Pushing the
+matching `v<portVersion>` tag publishes the production JAR and SHA-256 checksum
+to GitHub Releases after the build passes. Manual workflow runs only build.
+
 The foundation is GTNewHorizons ExampleMod1.7.10 starter, SHA-256
 `0e1bb6482eb16e391927900bca30fd03dbe256845dcd586bc19b61413b22e673`.
 Pinned build: GTNHGradle `2.0.33`, RetroFuturaGradle `2.0.5`, Gradle `9.7.1`,

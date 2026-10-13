@@ -1,0 +1,90 @@
+name: Forge 1.7.10 build and release
+
+on:
+  push:
+    branches: ['1.7.10-java25']
+    tags: ['v*-forge-1.7.10']
+  pull_request:
+    branches: ['1.7.10-java25']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: |
+            8
+            17
+            25
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Validate release version
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          $properties = Get-Content mods/1.7.10/zstdnet-forge/gradle.properties -Raw | ConvertFrom-StringData
+          $upstream = Get-Content mods/1.20.1/zstdnet-forge/gradle.properties -Raw | ConvertFrom-StringData
+          if ($properties.portVersion -ne "$($upstream.mod_version)-forge-1.7.10") {
+            throw 'Port version must match the upstream version in this checkout.'
+          }
+          if ($env:REF_TYPE -eq 'tag' -and $env:REF_NAME -ne "v$($properties.portVersion)") {
+            throw 'Release tag does not match portVersion.'
+          }
+      - name: Test and build production JAR
+        working-directory: mods/1.7.10/zstdnet-forge
+        run: |
+          ./gradlew.bat --no-daemon --console=plain clean build reobfJar
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Prepare release assets
+        run: |
+          $properties = Get-Content mods/1.7.10/zstdnet-forge/gradle.properties -Raw | ConvertFrom-StringData
+          $name = "zstdnet-1.7.10-forge-$($properties.portVersion).jar"
+          $jar = Get-Item "mods/1.7.10/zstdnet-forge/build/libs/$name"
+          New-Item -ItemType Directory -Path dist | Out-Null
+          Copy-Item $jar.FullName dist/
+          $hash = (Get-FileHash $jar.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  $name" | Set-Content dist/SHA256SUMS.txt -Encoding utf8NoBOM
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forge-1.7.10
+          path: dist/*
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: forge-1.7.10-test-results
+          path: mods/1.7.10/zstdnet-forge/build/reports/tests/
+
+  release:
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-1.7.10
+          path: dist
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" dist/* --verify-tag \
+            --title "ZstdNet $RELEASE_TAG (Forge 1.7.10 / Java 25)" \
+            --notes-file docs/releases/forge-1.7.10.md --latest=false
