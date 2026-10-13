@@ -24,6 +24,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Validate upstream version and release tag
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $module = 'mods/1.12.2/zstdnet-cleanroom'
+          $match = [regex]::Match((Get-Content "$module/build.gradle" -Raw), "(?m)^version = '([^']+)'\r?$")
+          if (!$match.Success) { throw 'Cannot read release version' }
+          $version = $match.Groups[1].Value
+          $upstream = Get-Content 'mods/1.20.1/zstdnet-forge/gradle.properties' -Raw | ConvertFrom-StringData
+          $pattern = '^' + [regex]::Escape($upstream.mod_version + '-cleanroom-1.12.2') + '(-(alpha|beta|rc)\.[0-9]+)?$'
+          if ($version -cnotmatch $pattern) { throw 'Port version must match the checked-in upstream version and Cleanroom 1.12.2 suffix' }
+          if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -cne "v$version") { throw 'Tag does not match mod version' }
+
       - name: Cache verified Java toolchains
         uses: actions/cache@v4
         with:
@@ -90,7 +103,7 @@ jobs:
           retention-days: 14
 
   release:
-    if: startsWith(github.ref, 'refs/tags/')
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
     needs: build
     runs-on: windows-latest
     timeout-minutes: 10
@@ -120,7 +133,7 @@ jobs:
           if (!$jar -or !$checksum) { throw 'Missing JAR or checksum' }
           $expected = ((Get-Content -LiteralPath $checksum.FullName -Raw).Trim() -split '\s+')[0]
           if ((Get-FileHash -LiteralPath $jar.FullName -Algorithm SHA256).Hash -ine $expected) { throw 'Release checksum mismatch' }
-          $releaseArguments = @('release', 'create', $env:RELEASE_TAG, '--verify-tag', '--title', "ZstdNet Cleanroom $env:RELEASE_VERSION", '--notes-file', $notes)
+          $releaseArguments = @('release', 'create', $env:RELEASE_TAG, '--verify-tag', '--latest=false', '--title', "ZstdNet Cleanroom $env:RELEASE_VERSION", '--notes-file', $notes)
           if ($env:RELEASE_VERSION -match '-(alpha|beta|rc)[.-]') { $releaseArguments += '--prerelease' }
           $releaseArguments += @($jar.FullName, $checksum.FullName)
           & gh @releaseArguments

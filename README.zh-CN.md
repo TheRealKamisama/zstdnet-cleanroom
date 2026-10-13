@@ -1,6 +1,6 @@
 # ZstdNet — Cleanroom 1.12.2 Fork
 
-本仓库是 **ZstdNet 的向后移植（Backport）Fork**，在保留现代版本模块的基础上，将兼容范围向后扩展至 **Minecraft 1.12.2 / Cleanroom / Java 25**。当前 Cleanroom 模块版本为 `1.4.7-cleanroom-alpha.1`，用户已确认实际进服与 Zstd 压缩正常。
+本仓库是 **ZstdNet 的向后移植（Backport）Fork**，在保留现代版本模块的基础上，将兼容范围向后扩展至 **Minecraft 1.12.2 / Cleanroom / Java 25**。当前 Cleanroom 模块版本为 `1.4.7-cleanroom-1.12.2`，用户已确认实际进服与 Zstd 压缩正常。
 
 **下载：[本 Fork 的 GitHub Releases](https://github.com/TheRealKamisama/zstdnet-cleanroom/releases)**。默认维护分支是 `cleanroom-1.12.2`，`main` 保留上游基线。带版本的发布标签由 GitHub Actions 构建、验证并发布；alpha 版本标记为 Pre-release。
 
